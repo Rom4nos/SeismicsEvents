@@ -125,9 +125,9 @@ public class HelloController {
 
 
         // Set up the database connection
-        String url = "jdbc:mysql://localhost:3306/SISMICEVENTS";
+        String url = "PATH/TO/FILE";
         String uname = "root";
-        String pass = "12345678";
+        String pass = "YOUR_PASSWORD";
 
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
