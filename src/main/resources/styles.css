@@ -1,0 +1,26 @@
+.root {
+    -fx-background-color: #141831;
+    -fx-text-fill: #ffffff;
+}
+.combo-box {
+    -fx-border-radius: 10px;
+    -fx-background-color: #c74747;
+    -fx-font-size: 14px;
+    -fx-text-fill: #000000;
+    -fx-prompt-text-fill: #ffffff;
+    -fx-border-color: #0c0c0c;
+    -fx-border-width: 1px;
+}
+.combo-box .arrow-button {
+    -fx-border-radius: 10px;
+    -fx-shape: null;
+}
+.combo-box .list-cell {
+    -fx-border-radius: 10px;
+    -fx-font-size: 14px;
+    -fx-text-fill: #000000;
+    -fx-pref-height: 30px;
+}
+.combo-box .list-cell:selected {
+    -fx-background-color: #ffffff;
+}
